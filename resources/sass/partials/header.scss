@@ -1,0 +1,40 @@
+header{
+    height: 100px; 
+    padding-top: 10px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        padding: 0px 10% 0px 0;
+        width: 10%;
+    }
+    .logo img{
+        height: 70px;
+    }
+    nav {
+        ul {
+            display: flex;
+            list-style: none;
+            li {
+                .active, :hover {
+                    border-bottom: 5px solid;
+                    color: blue;
+                };
+                padding: 0px 15px;
+                a {
+                    display: inline-block;
+                    text-decoration: none;
+                    color: #000;
+                    text-transform: uppercase;
+                    line-height: 85px;
+                    font-size: 12px;
+                    font-weight: bold;
+                };
+            };
+            
+        };
+    };
+}
